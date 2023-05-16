@@ -7,10 +7,10 @@
 
 <style>
   :root {
-    --color-background: #111;
+    --color-background: #202124;
     --color-text-subtle: #999;
     --color-text: #eee;
-    --font-family: -apple-system, Helvetica, sans-serif;
+    --font-family: system-ui, -apple-system, Helvetica, sans-serif;
     --font-size-1: 1rem;
     --font-size-2: 3rem;
     --font-size-base: clamp(16px, 1.2vw, 18px);
@@ -37,7 +37,7 @@
     commandPathDelimiter: '/',
     commandSearchDelimiter: ' ',
     defaultSearchTemplate: 'https://duckduckgo.com/?q={}',
-    openLinksInNewTab: true,
+    openLinksInNewTab: false,
     suggestionLimit: 4,
   };
 
@@ -48,21 +48,17 @@
     ['d', { name: 'Drive', url: 'https://drive.google.com' }],
     ['f', { name: 'Figma', url: 'https://www.figma.com/files/recent' }],
     ['g', { name: 'GitHub', url: 'https://github.com' }],
-    ['h', { name: 'Hypem', url: 'https://hypem.com/popular' }],
     ['i', { name: 'Discord', url: 'https://discord.com/channels/@me' }],
-    ['k', { name: 'Keep', url: 'https://keep.google.com' }],
-    ['m', { name: 'Mail', url: 'https://mail.proton.me/u/0/inbox' }],
-    ['n', { name: 'Notion', url: 'https://www.notion.so' }],
+    ['m', { name: 'Mail', url: 'https://mail.google.com' }],
     [
       'r',
       {
         name: 'Reddit',
         searchTemplate: '/search?q={}',
         suggestions: [
-          'r/r/startpages',
-          'r/r/webdev',
-          'r/r/onebag',
-          'r/r/fujix',
+          'r/r/macapps',
+          'r/r/apple',
+          'r/r/PS5',
         ],
         url: 'https://www.reddit.com',
       },
@@ -78,8 +74,6 @@
     ['s/ayp', { command: 's/client/T03VB9LJ0AF' }],
     ['s/sn', { command: 's/client/T09M5UWSV' }],
     ['t', { name: 'Translate', url: 'https://translate.google.com' }],
-    ['u', { name: 'Supabase', url: 'https://app.supabase.com/projects' }],
-    ['v', { name: 'Vercel', url: 'https://vercel.com/dashboard' }],
     ['w', { name: 'Twitter', url: 'https://twitter.com/home' }],
     [
       'y',
